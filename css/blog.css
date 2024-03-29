@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,200;0,400;1,200;1,400&family=Changa:wght@200;300;400;500;600&family=Inter:wght@200;300;400;500;700;800&family=Lato:ital,wght@0,400;0,700;1,300;1,400;1,700&family=Roboto+Slab:wght@500&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: #080e1e;
+    overflow-x: hidden;
+    box-sizing: border-box; 
+    height: 2000px;
+    font-family: 'Inter', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+hr{
+    color: #a9adb8;
+}
+/* ============ General ============*/
+.transparent{
+    background-color: transparent !important;
+}
+.dark-background{
+    background-color: black !important;
+}
+h3{
+    color: #fff;
+}
+p{
+    color: #a9adb8;
+}
+.color{
+    background-color: #080e1e ;
+}
+#blog-navbar {
+    background-color: transparent;
+    transition: background-color 0.3s;
+}
+  
+/* ============ Start Welcome Section ============*/
+.welcome-content{
+    background-image: url(../images/blog-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+.welcome-content-rgba{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+    width: 100vw;
+    /* position: relative; */
+}
+.welcome-content-rgba-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    font-family: 'Inter', sans-serif;
+    color: #ffffff;
+}
+.welcome-content-rgba-info p{
+    color: #fff;
+    opacity: 0.5;
+}
+
+/* ============ End Welcome Section ============*/
+
+/* ============ Start About Section ============*/
+#about , #blogVideo ,#Phosphorescently , #comments ,#contact2 ,#about2{
+    margin-top: 10%;
+    max-width: 80vw;
+}
+#about img ,.Phosphorescently .img2{
+    max-width: 80vw;
+    height: 500px;
+}
+#about p {
+    color: #a9adb8;
+    font-size: 18px;
+}
+/* ============ End About Section ============*/
+
+/* ============ End Blog video Section ============*/
+#blogVideo .quote{
+    background-color: #151a29;
+    max-width: 80vw;
+    position: relative;
+    overflow: hidden;
+    padding: 30px 40px;
+    border-radius: 20px;
+    font-family: 'Inter', sans-serif;
+}
+#blogVideo .quote .quote-line{
+    background-color: #fec544;
+    position: absolute;
+    height: 200px;
+    top: 0;
+    width: 5px;
+    left: 0;
+}
+#blogVideo .quote .quote-content{
+    color: #fec544;
+}
+#blogVideo .by{
+    color: #a9adb8;
+}
+/* ============ End Blog video Section ============*/
+
+/* ============ Start Phosphorescently Section ============*/
+#Phosphorescently{
+    max-width: 80vw;
+}
+.tags{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.social-media-icons i{
+    transition:all 0.3s ease-in-out;
+}
+.social-media-icons i:hover{
+    color: #fec544;
+}
+.Phosphorescently-btns{
+    flex-wrap: nowrap;
+}
+.Phosphorescently-btns a button , .contact-form  .btn3{
+    background-color: transparent;
+    border: 1px solid #fec544;
+    border-radius: 20px;
+    transition:all 0.3s ease-in-out;
+    color: #fec544;
+    max-width: 40vw;
+    text-align: center;
+    font-size: 16px;
+}
+.Phosphorescently-btns a button:hover ,  .contact-form  .btn:hover{
+    background-color: #fec544;
+    color: #151a29;
+    border: 1px solid #fec544;
+    box-shadow: 3px 3px 10px 0.5px rgba(240,237,240,1);
+}
+/* ============ End Phosphorescently Section ============*/
+
+/* ============ Start Comments Section ============*/
+.comment{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.comment img{
+    max-height: 50px;
+    border-radius: 10px;
+}
+.comment span h5{
+    color: #fec544;
+    cursor: pointer;
+}
+.comment span .p{
+    color: #fdfeff;
+}
+.comment span .p:hover{
+    color: #fec544;
+    cursor: pointer;
+}
+.comment span p{
+    color: #a9adb8;
+}
+.comment span a{
+    text-decoration: none;
+    color: #fec544;
+}
+.comment span a:hover{
+    color: #fdfeff;
+}
+
+
+/* ============ End Comments Section ============*/
+
+/* ============ Start Light Mode Section ============*/
+
+.blog-body-light-mode{
+    background-color: #ecd8de;
+}
+.blog-header-light-mode{
+    color: #080e1e !important;
+}
+.btn-change-light-mode{
+    border:1px solid #080e1e !important;
+    color: rgb(212, 162, 45) !important;
+    font-weight: bold;
+}
+
+.btn-change-light-mode:hover{
+    border:1px solid #080e1e !important;
+    background-color: #080e1e !important;
+    font-weight: bold;
+    box-shadow: 3px 3px 10px 0.5px rgba(212, 162, 45,1);
+}
+.hr-light-mode{
+    color: #080e1e !important;
+}
+/* ============ Start Light Mode Section ============*/
+
